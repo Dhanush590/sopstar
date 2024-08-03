@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopstar</title>
+    <link rel="icon" href="../MADIA/IMAGE/music.png">
+    <style>
+        body {
+            background-color: cadetblue;
+            font-family: Copperplate, Papyrus, fantasy;
+
+        }
+
+        .heard {
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 40px;
+        }
+
+        .contant {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+
+        .contant div {
+            margin-top: 150px;
+        }
+
+        img {
+            border-radius: 50%;
+            box-shadow: 8px 8px 8px black;
+            object-fit: cover;
+            transition: transform .1s ease-in;
+        }
+
+        .h {
+            text-align: center;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+
+        }
+
+        video {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -2;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            body {
+                background-image: url("../MADIA/IMAGE/login.jpg");
+                background-position: top left;
+                background-repeat: no-repeat;
+            }
+
+            video {
+                left: 900px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <video src="../MADIA/VIDEO/back1.mp4.mp4" autoplay loop loop>
+    </video>
+    <div class="heard">
+        <h1>Spostar</h1>
+    </div>
+    <div class="contant">
+        <div class="music">
+            <a href="../HTML/music.html"><img src="../MADIA/IMAGE/music.png" alt="music"></a>
+            <h1 class="h">Music</h1>
+        </div>
+        <div class="movie">
+            <a href="../HTML/movie.html"><img src="../MADIA/IMAGE/movie.png" alt="movie"></a>
+            <h1 class="h">Movie</h1>
+        </div>
+    </div>
+</body>
+
+</html>
