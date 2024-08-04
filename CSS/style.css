@@ -58,10 +58,16 @@ h1 {
     .u1{
         width: 150px;
     }
-    .body1{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
         background-image:url("../MADIA/IMAGE/b4.jpg");
         background-position:top left;
         background-repeat: no-repeat;
+        background-size: auto;
+        
     }
     video {
         left: 900px;
