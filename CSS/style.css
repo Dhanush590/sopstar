@@ -72,4 +72,7 @@ h1 {
     video {
         left: 900px;
     }
+    marquee{
+        font-size:20px;
+    }
   }
