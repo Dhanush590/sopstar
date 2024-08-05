@@ -1,0 +1,167 @@
+.latest-movies1 {
+    position: absolute;
+    width: 99%;
+    height: auto;
+    background-color: black;
+    margin-top: 450px;
+    padding: 0px 1px;
+    margin-left: -0px;
+    background-size: cover;
+}
+.latest-inside {
+    margin-right: 10px;
+}
+
+
+/*.latest-movies1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 390px;
+    padding: 0px 20px;
+}*/
+
+body {
+    background-color: black;
+}
+
+.latest-movies h1 {
+    font-size: 20px;
+    color: teal;
+}
+
+.latest-container {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.latest-inside img {
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.latest-inside img:hover {
+    transform: scale(1.2)
+}
+
+.heading1 {
+    color: white;
+    line-height: 1.5;
+}
+
+.heading1 h4 {
+    font-size: 15px;
+}
+
+.heading1 h6 {
+    font-size: 17px;
+    margin-top: -8px;
+}
+
+.heading1 p {
+    margin-top: -8px;
+}
+
+.btn2 {
+    margin-top: -30px;
+    margin-left: 150px;
+}
+
+.btn2 {
+    margin-top: -70px;
+    margin-left: 150px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    font-size: 13px;
+    background: teal;
+    padding: 6px 6px;
+    color: white;
+    border-radius: 10%;
+}
+
+.hollywood-movies {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    margin-left: -15px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.hollywood-movies h1 {
+    font-size: 20px;
+    color: teal;
+}
+
+.hollywood-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hollywood-inside h3 {
+    margin-top: 30px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.hollywood-inside img {
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.hollywood-inside img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.imdb {
+    position: absolute;
+    background: teal;
+    color: white;
+    margin-top: -104px;
+    margin-left: 110px;
+    font-weight: bolder;
+    padding: 00px 14px;
+    border-radius: 50%;
+
+
+}
+
+.move {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1220px;
+}
+
+.move a {
+    color: teal;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hollywood-inside {
+    margin-right: 35px;
+    margin-left: 25px;
+
+}
+.list h1{font-size: 20px;
+color: teal;
+position: absolute;
+margin-top: 430px;
+}
